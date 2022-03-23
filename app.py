@@ -31,6 +31,7 @@ cursor.execute("SELECT * FROM test")
 
 result1= cursor.fetchmany(2)
 print(result1)
+print(result1)
 
 connection.commit()
 connection.close()
